@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="formvalid.js"></script>
+    <link rel="stylesheet" href="jsass.css">
+</head>
+<body>
+    <nav class="love">
+        <ul>
+      <li>  <a href="assg1.html">Home</a></li>
+       <li><a href="about.html">About</a></li>
+       <li> <a href="prey.html">Prey & Predators</a></li>
+       <li><a href="assgnmnt1.html">Gallery</a></li>
+       <li><a href="worldcount.html">World count</a></li>
+       <li><a href="honesty.html">Honesty Declaration</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    
+     </nav>
+     <div class="Aquarium">
+        <h1>A Q U A R I U M</h1>
+        
+      <h5>.............Rare Species found Here.......................</h5>
+    </div>
+    <form 
+    action="https://formspree.io/forms" 
+    method="post" 
+    id="contactus"
+    name="contactus"
+    onsubmit="return validate()"
+    >
+        <h1>ContactUs</h1>
+        <label for="firstname">firstName:&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+
+        <label for="lastname">lastname:&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <label for="email">email:&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+<label for="date">date:&nbsp;&nbsp;&nbsp;</label>
+<input type="date" id="date" name="date" required><br><br>
+
+
+        <label for="contact">Contact Number:&nbsp;&nbsp;&nbsp;</label>
+        <input type="tel" id="contact" name="contact" required><br><br>
+
+        <label for="messege">Messege:&nbsp;&nbsp;&nbsp;</label>
+        <textarea id="messege" name="messege" required></textarea><br>
+
+        <br>
+
+        <input type="submit" value="SUBMIT" class="buuton">
+    </form>
+
+
+
+
+
+
+
+
+</body>
+</html>

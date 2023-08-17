@@ -1,0 +1,64 @@
+.Aquarium{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    background-color:rgb(252, 221, 43);
+    padding:2%;
+    margin: 0% 70% 0% 1%;
+
+    color: #c71212;
+        
+}
+
+nav {
+    background-color:black;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0% 0% 0% 30%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    text-align: right;
+    font-size:large;
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    color:white;
+}
+
+nav ul li a:hover {
+    text-decoration:rgb(205, 24, 21);
+}
+
+body{
+   
+    background-image: url('wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+
+}
+p{
+    background-color: darkred;
+    color: beige;
+    font-size: larger;
+}
+.love {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;}

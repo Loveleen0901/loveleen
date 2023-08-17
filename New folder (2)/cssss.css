@@ -1,0 +1,88 @@
+nav{
+    text-align: center;
+    margin: 20px;
+}
+div{
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+img {
+    width: 600px; 
+    height: 400px;
+}
+video{
+    width:600px;
+    height:450px ;
+
+}
+h5{
+    margin-top: 10px;
+    font-size: 19px;
+    background-color: rgb(234, 234, 70);
+    color: rgb(17, 17, 13);
+}
+body{
+   
+    background-image: url('wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: brown;
+    color: beige;
+    text-align: center;
+    padding: 1% 0 2% 0;
+    font-size: xx-large;
+
+}
+
+
+.Aquarium{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    background-color:rgb(252, 221, 43);
+    padding:2%;
+    margin: 0% 70% 0% 1%;
+
+    color: #c71212;
+        
+}
+
+section {
+    background-color:black;
+    padding: 10px;
+}
+
+section ul {
+    margin: 0% 0% 0% 30%;
+}
+
+section ul li {
+    display: inline-block;
+    margin-right: 30px;
+    text-align: right;
+    font-size:large;
+}
+
+section ul li:last-child {
+    margin-right: 0; 
+}
+
+section ul li a {
+    color:yellow;
+}
+
+section ul li a:hover {
+    text-decoration:rgb(205, 24, 21);
+}
+p{
+    background-color:lavender ;
+}
+.love {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;}

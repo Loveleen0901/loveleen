@@ -1,0 +1,28 @@
+
+a {
+  color: yellow;
+}
+a a:hover {
+  color: white;
+}
+
+button {
+  background-color: red;
+}
+
+.contact-form {
+  border: 1px dashed black;
+}
+
+button {
+  text-transform: uppercase;
+}
+button a:after {
+  content: "";
+  display: block;
+}
+.love {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;}
